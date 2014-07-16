@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ttFont ttLibVersion="2.4">
+
+  <GPOS ERROR="decompilation error">
+    <!-- An error occurred during the decompilation of this table -->
+    <!-- Traceback (most recent call last):
+           File "/Volumes/Fonts/all/venv/lib/python2.7/site-packages/FontTools/fontTools/ttLib/__init__.py", line 372, in __getitem__
+             table.decompile(data, self)
+           File "/Volumes/Fonts/all/venv/lib/python2.7/site-packages/FontTools/fontTools/ttLib/tables/otBase.py", line 38, in decompile
+             self.table.decompile(reader, font)
+           File "/Volumes/Fonts/all/venv/lib/python2.7/site-packages/FontTools/fontTools/ttLib/tables/otBase.py", line 579, in decompile
+             table[conv.name] = conv.read(reader, font, tableStack)
+           File "/Volumes/Fonts/all/venv/lib/python2.7/site-packages/FontTools/fontTools/ttLib/tables/otConverters.py", line 172, in read
+             table.decompile(subReader, font, tableStack)
+           File "/Volumes/Fonts/all/venv/lib/python2.7/site-packages/FontTools/fontTools/ttLib/tables/otBase.py", line 576, in decompile
+             l.append(conv.read(reader, font, tableStack))
+           File "/Volumes/Fonts/all/venv/lib/python2.7/site-packages/FontTools/fontTools/ttLib/tables/otConverters.py", line 172, in read
+             table.decompile(subReader, font, tableStack)
+           File "/Volumes/Fonts/all/venv/lib/python2.7/site-packages/FontTools/fontTools/ttLib/tables/otBase.py", line 576, in decompile
+             l.append(conv.read(reader, font, tableStack))
+           File "/Volumes/Fonts/all/venv/lib/python2.7/site-packages/FontTools/fontTools/ttLib/tables/otConverters.py", line 172, in read
+             table.decompile(subReader, font, tableStack)
+           File "/Volumes/Fonts/all/venv/lib/python2.7/site-packages/FontTools/fontTools/ttLib/tables/otBase.py", line 579, in decompile
+             table[conv.name] = conv.read(reader, font, tableStack)
+           File "/Volumes/Fonts/all/venv/lib/python2.7/site-packages/FontTools/fontTools/ttLib/tables/otConverters.py", line 172, in read
+             table.decompile(subReader, font, tableStack)
+           File "/Volumes/Fonts/all/venv/lib/python2.7/site-packages/FontTools/fontTools/ttLib/tables/otBase.py", line 581, in decompile
+             self.postRead(table, font)
+           File "/Volumes/Fonts/all/venv/lib/python2.7/site-packages/FontTools/fontTools/ttLib/tables/otTables.py", line 42, in postRead
+             startID = font.getGlyphID(start)
+           File "/Volumes/Fonts/all/venv/lib/python2.7/site-packages/FontTools/fontTools/ttLib/__init__.py", line 547, in getGlyphID
+             raise KeyError, glyphName
+         KeyError: 'glyph65535'
+          -->
+    <hexdata>
+      00010000 000a001e 002c0001 6c61746e
+      00080004 00000000 ffff0001 00000001
+      63707370 00080000 00010000 00010004
+      00010000 00010008 0001000a 00050010
+      00200002 00090007 00070000 0022003b
+      0001007e 007e001b 00800082 001c008d
+      008d001f 00900090 0020009d 00b60021
+      00ea00f0 003bffff ffff0042 
+    </hexdata>
+  </GPOS>
+
+</ttFont>
